@@ -30,6 +30,7 @@ body{
 /*style the top navigation bar */
 
 .navbar {
+    font-family: sans-serif;
     display:block;
     background-color: grey;
     text-decoration: none;
@@ -49,9 +50,8 @@ body{
 
 /*Change color on hover*/
 
-.navbar a:hover {
-    background-color: gainsboro;
-    color: black;
+.navbar a:hover{
+  background-color: gold;
 }
 
 
@@ -60,6 +60,21 @@ body{
 .row{
     display: flex;
     flex-wrap: wrap;
+}
+
+/*list items in comment*/
+
+form li{
+  list-style: none;
+}
+
+label{
+  display: block;
+}
+
+textarea{
+  width: 400px;
+  height: 200px;
 }
 
 
