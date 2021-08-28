@@ -14,10 +14,11 @@ body{
 /*Header/logo Title*/
 
 .header {
-    padding: 60px;
+    padding: 1px;
     text-align: center;
-    background: brown;
-    color: green;
+    background: black;
+    color: gold;
+    font-size: 54px;
 }
 
 .nice {
@@ -35,7 +36,6 @@ body{
     background-color: grey;
     text-decoration: none;
 }
-
 
 /*Style the navigation bar links */
 
